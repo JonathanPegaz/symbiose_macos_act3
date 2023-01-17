@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABB146E029774C2200E9EF56 /* symbiose_macos_act3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB146DF29774C2200E9EF56 /* symbiose_macos_act3App.swift */; };
+		ABB146E229774C2200E9EF56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB146E129774C2200E9EF56 /* ContentView.swift */; };
+		ABB146E429774C2300E9EF56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB146E329774C2300E9EF56 /* Assets.xcassets */; };
+		ABB146E729774C2300E9EF56 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB146E629774C2300E9EF56 /* Preview Assets.xcassets */; };
+		ABB146F229774C2300E9EF56 /* symbiose_macos_act3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB146F129774C2300E9EF56 /* symbiose_macos_act3Tests.swift */; };
+		ABB146FC29774C2300E9EF56 /* symbiose_macos_act3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB146FB29774C2300E9EF56 /* symbiose_macos_act3UITests.swift */; };
+		ABB146FE29774C2300E9EF56 /* symbiose_macos_act3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB146FD29774C2300E9EF56 /* symbiose_macos_act3UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABB146EE29774C2300E9EF56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB146D429774C2100E9EF56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABB146DB29774C2200E9EF56;
+			remoteInfo = symbiose_macos_act3;
+		};
+		ABB146F829774C2300E9EF56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB146D429774C2100E9EF56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABB146DB29774C2200E9EF56;
+			remoteInfo = symbiose_macos_act3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABB146DC29774C2200E9EF56 /* symbiose_macos_act3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = symbiose_macos_act3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB146DF29774C2200E9EF56 /* symbiose_macos_act3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symbiose_macos_act3App.swift; sourceTree = "<group>"; };
+		ABB146E129774C2200E9EF56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ABB146E329774C2300E9EF56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABB146E629774C2300E9EF56 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABB146E829774C2300E9EF56 /* symbiose_macos_act3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = symbiose_macos_act3.entitlements; sourceTree = "<group>"; };
+		ABB146ED29774C2300E9EF56 /* symbiose_macos_act3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = symbiose_macos_act3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB146F129774C2300E9EF56 /* symbiose_macos_act3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symbiose_macos_act3Tests.swift; sourceTree = "<group>"; };
+		ABB146F729774C2300E9EF56 /* symbiose_macos_act3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = symbiose_macos_act3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB146FB29774C2300E9EF56 /* symbiose_macos_act3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symbiose_macos_act3UITests.swift; sourceTree = "<group>"; };
+		ABB146FD29774C2300E9EF56 /* symbiose_macos_act3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symbiose_macos_act3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABB146D929774C2200E9EF56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB146EA29774C2300E9EF56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB146F429774C2300E9EF56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABB146D329774C2100E9EF56 = {
+			isa = PBXGroup;
+			children = (
+				ABB146DE29774C2200E9EF56 /* symbiose_macos_act3 */,
+				ABB146F029774C2300E9EF56 /* symbiose_macos_act3Tests */,
+				ABB146FA29774C2300E9EF56 /* symbiose_macos_act3UITests */,
+				ABB146DD29774C2200E9EF56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABB146DD29774C2200E9EF56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABB146DC29774C2200E9EF56 /* symbiose_macos_act3.app */,
+				ABB146ED29774C2300E9EF56 /* symbiose_macos_act3Tests.xctest */,
+				ABB146F729774C2300E9EF56 /* symbiose_macos_act3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABB146DE29774C2200E9EF56 /* symbiose_macos_act3 */ = {
+			isa = PBXGroup;
+			children = (
+				ABB1470B29774CA900E9EF56 /* ble */,
+				ABB1470A29774C9400E9EF56 /* video */,
+				ABB146DF29774C2200E9EF56 /* symbiose_macos_act3App.swift */,
+				ABB146E129774C2200E9EF56 /* ContentView.swift */,
+				ABB146E329774C2300E9EF56 /* Assets.xcassets */,
+				ABB146E829774C2300E9EF56 /* symbiose_macos_act3.entitlements */,
+				ABB146E529774C2300E9EF56 /* Preview Content */,
+			);
+			path = symbiose_macos_act3;
+			sourceTree = "<group>";
+		};
+		ABB146E529774C2300E9EF56 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ABB146E629774C2300E9EF56 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ABB146F029774C2300E9EF56 /* symbiose_macos_act3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ABB146F129774C2300E9EF56 /* symbiose_macos_act3Tests.swift */,
+			);
+			path = symbiose_macos_act3Tests;
+			sourceTree = "<group>";
+		};
+		ABB146FA29774C2300E9EF56 /* symbiose_macos_act3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABB146FB29774C2300E9EF56 /* symbiose_macos_act3UITests.swift */,
+				ABB146FD29774C2300E9EF56 /* symbiose_macos_act3UITestsLaunchTests.swift */,
+			);
+			path = symbiose_macos_act3UITests;
+			sourceTree = "<group>";
+		};
+		ABB1470A29774C9400E9EF56 /* video */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = video;
+			sourceTree = "<group>";
+		};
+		ABB1470B29774CA900E9EF56 /* ble */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ble;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABB146DB29774C2200E9EF56 /* symbiose_macos_act3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB1470129774C2300E9EF56 /* Build configuration list for PBXNativeTarget "symbiose_macos_act3" */;
+			buildPhases = (
+				ABB146D829774C2200E9EF56 /* Sources */,
+				ABB146D929774C2200E9EF56 /* Frameworks */,
+				ABB146DA29774C2200E9EF56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = symbiose_macos_act3;
+			productName = symbiose_macos_act3;
+			productReference = ABB146DC29774C2200E9EF56 /* symbiose_macos_act3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABB146EC29774C2300E9EF56 /* symbiose_macos_act3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB1470429774C2300E9EF56 /* Build configuration list for PBXNativeTarget "symbiose_macos_act3Tests" */;
+			buildPhases = (
+				ABB146E929774C2300E9EF56 /* Sources */,
+				ABB146EA29774C2300E9EF56 /* Frameworks */,
+				ABB146EB29774C2300E9EF56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABB146EF29774C2300E9EF56 /* PBXTargetDependency */,
+			);
+			name = symbiose_macos_act3Tests;
+			productName = symbiose_macos_act3Tests;
+			productReference = ABB146ED29774C2300E9EF56 /* symbiose_macos_act3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABB146F629774C2300E9EF56 /* symbiose_macos_act3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB1470729774C2300E9EF56 /* Build configuration list for PBXNativeTarget "symbiose_macos_act3UITests" */;
+			buildPhases = (
+				ABB146F329774C2300E9EF56 /* Sources */,
+				ABB146F429774C2300E9EF56 /* Frameworks */,
+				ABB146F529774C2300E9EF56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABB146F929774C2300E9EF56 /* PBXTargetDependency */,
+			);
+			name = symbiose_macos_act3UITests;
+			productName = symbiose_macos_act3UITests;
+			productReference = ABB146F729774C2300E9EF56 /* symbiose_macos_act3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABB146D429774C2100E9EF56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					ABB146DB29774C2200E9EF56 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					ABB146EC29774C2300E9EF56 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = ABB146DB29774C2200E9EF56;
+					};
+					ABB146F629774C2300E9EF56 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = ABB146DB29774C2200E9EF56;
+					};
+				};
+			};
+			buildConfigurationList = ABB146D729774C2200E9EF56 /* Build configuration list for PBXProject "symbiose_macos_act3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABB146D329774C2100E9EF56;
+			productRefGroup = ABB146DD29774C2200E9EF56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABB146DB29774C2200E9EF56 /* symbiose_macos_act3 */,
+				ABB146EC29774C2300E9EF56 /* symbiose_macos_act3Tests */,
+				ABB146F629774C2300E9EF56 /* symbiose_macos_act3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABB146DA29774C2200E9EF56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB146E729774C2300E9EF56 /* Preview Assets.xcassets in Resources */,
+				ABB146E429774C2300E9EF56 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB146EB29774C2300E9EF56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB146F529774C2300E9EF56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABB146D829774C2200E9EF56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB146E229774C2200E9EF56 /* ContentView.swift in Sources */,
+				ABB146E029774C2200E9EF56 /* symbiose_macos_act3App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB146E929774C2300E9EF56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB146F229774C2300E9EF56 /* symbiose_macos_act3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB146F329774C2300E9EF56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB146FE29774C2300E9EF56 /* symbiose_macos_act3UITestsLaunchTests.swift in Sources */,
+				ABB146FC29774C2300E9EF56 /* symbiose_macos_act3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABB146EF29774C2300E9EF56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABB146DB29774C2200E9EF56 /* symbiose_macos_act3 */;
+			targetProxy = ABB146EE29774C2300E9EF56 /* PBXContainerItemProxy */;
+		};
+		ABB146F929774C2300E9EF56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABB146DB29774C2200E9EF56 /* symbiose_macos_act3 */;
+			targetProxy = ABB146F829774C2300E9EF56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ABB146FF29774C2300E9EF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABB1470029774C2300E9EF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ABB1470229774C2300E9EF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = symbiose_macos_act3/symbiose_macos_act3.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"symbiose_macos_act3/Preview Content\"";
+				DEVELOPMENT_TEAM = 6V8Z3B326L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jonathan.symbiose-macos-act3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ABB1470329774C2300E9EF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = symbiose_macos_act3/symbiose_macos_act3.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"symbiose_macos_act3/Preview Content\"";
+				DEVELOPMENT_TEAM = 6V8Z3B326L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jonathan.symbiose-macos-act3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ABB1470529774C2300E9EF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6V8Z3B326L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jonathan.symbiose-macos-act3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/symbiose_macos_act3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/symbiose_macos_act3";
+			};
+			name = Debug;
+		};
+		ABB1470629774C2300E9EF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6V8Z3B326L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jonathan.symbiose-macos-act3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/symbiose_macos_act3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/symbiose_macos_act3";
+			};
+			name = Release;
+		};
+		ABB1470829774C2300E9EF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6V8Z3B326L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jonathan.symbiose-macos-act3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = symbiose_macos_act3;
+			};
+			name = Debug;
+		};
+		ABB1470929774C2300E9EF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6V8Z3B326L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jonathan.symbiose-macos-act3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = symbiose_macos_act3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABB146D729774C2200E9EF56 /* Build configuration list for PBXProject "symbiose_macos_act3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB146FF29774C2300E9EF56 /* Debug */,
+				ABB1470029774C2300E9EF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB1470129774C2300E9EF56 /* Build configuration list for PBXNativeTarget "symbiose_macos_act3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB1470229774C2300E9EF56 /* Debug */,
+				ABB1470329774C2300E9EF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB1470429774C2300E9EF56 /* Build configuration list for PBXNativeTarget "symbiose_macos_act3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB1470529774C2300E9EF56 /* Debug */,
+				ABB1470629774C2300E9EF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB1470729774C2300E9EF56 /* Build configuration list for PBXNativeTarget "symbiose_macos_act3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB1470829774C2300E9EF56 /* Debug */,
+				ABB1470929774C2300E9EF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABB146D429774C2100E9EF56 /* Project object */;
+}
