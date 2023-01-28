@@ -14,6 +14,57 @@
 		ABB146F229774C2300E9EF56 /* symbiose_macos_act3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB146F129774C2300E9EF56 /* symbiose_macos_act3Tests.swift */; };
 		ABB146FC29774C2300E9EF56 /* symbiose_macos_act3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB146FB29774C2300E9EF56 /* symbiose_macos_act3UITests.swift */; };
 		ABB146FE29774C2300E9EF56 /* symbiose_macos_act3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB146FD29774C2300E9EF56 /* symbiose_macos_act3UITestsLaunchTests.swift */; };
+		ABB147D429789C3500E9EF56 /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147D229789C3500E9EF56 /* CustomVideoPlayer.swift */; };
+		ABB147D529789C3500E9EF56 /* VideoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147D329789C3500E9EF56 /* VideoManager.swift */; };
+		ABB147D82978A1BC00E9EF56 /* ToneOutputUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147D72978A1BC00E9EF56 /* ToneOutputUnit.swift */; };
+		ABB148132978A20100E9EF56 /* SpheroSensorControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147DA2978A20000E9EF56 /* SpheroSensorControl.swift */; };
+		ABB148142978A20100E9EF56 /* SharedToyBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147DC2978A20000E9EF56 /* SharedToyBox.swift */; };
+		ABB148152978A20100E9EF56 /* SDKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147DE2978A20000E9EF56 /* SDKUtils.swift */; };
+		ABB148162978A20100E9EF56 /* Toy.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147E12978A20000E9EF56 /* Toy.swift */; };
+		ABB148172978A20100E9EF56 /* SensorControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147E22978A20000E9EF56 /* SensorControl.swift */; };
+		ABB148182978A20100E9EF56 /* SPRKToy.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147E42978A20000E9EF56 /* SPRKToy.swift */; };
+		ABB148192978A20100E9EF56 /* SensorControlV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147E52978A20000E9EF56 /* SensorControlV1.swift */; };
+		ABB1481A2978A20100E9EF56 /* SpheroV1Toy.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147E62978A20000E9EF56 /* SpheroV1Toy.swift */; };
+		ABB1481B2978A20100E9EF56 /* SpheroV1ToyCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147E72978A20000E9EF56 /* SpheroV1ToyCore.swift */; };
+		ABB1481C2978A20100E9EF56 /* BB8Toy.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147E82978A20000E9EF56 /* BB8Toy.swift */; };
+		ABB1481D2978A20100E9EF56 /* SensorControlV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147EA2978A20000E9EF56 /* SensorControlV2.swift */; };
+		ABB1481E2978A20100E9EF56 /* BB9EToy.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147EB2978A20000E9EF56 /* BB9EToy.swift */; };
+		ABB1481F2978A20100E9EF56 /* SpheroV2Toy.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147EC2978A20000E9EF56 /* SpheroV2Toy.swift */; };
+		ABB148202978A20100E9EF56 /* BoltToy.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147ED2978A20000E9EF56 /* BoltToy.swift */; };
+		ABB148212978A20100E9EF56 /* R2D2Toy.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147EE2978A20000E9EF56 /* R2D2Toy.swift */; };
+		ABB148222978A20100E9EF56 /* SpheroV2ToyCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147EF2978A20000E9EF56 /* SpheroV2ToyCore.swift */; };
+		ABB148232978A20100E9EF56 /* MiniToy.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147F02978A20000E9EF56 /* MiniToy.swift */; };
+		ABB148242978A20100E9EF56 /* ToyProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147F12978A20000E9EF56 /* ToyProtocols.swift */; };
+		ABB148252978A20100E9EF56 /* CBUUID+SpheroUUIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147F22978A20000E9EF56 /* CBUUID+SpheroUUIDs.swift */; };
+		ABB148262978A20100E9EF56 /* ToyBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147F42978A20000E9EF56 /* ToyBox.swift */; };
+		ABB148272978A20100E9EF56 /* Color+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147F52978A20000E9EF56 /* Color+Utils.swift */; };
+		ABB148282978A20100E9EF56 /* SensorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147F72978A20000E9EF56 /* SensorUtils.swift */; };
+		ABB148292978A20100E9EF56 /* CommandOperationV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147F92978A20000E9EF56 /* CommandOperationV2.swift */; };
+		ABB1482A2978A20100E9EF56 /* CommandSequencerV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147FA2978A20000E9EF56 /* CommandSequencerV2.swift */; };
+		ABB1482B2978A20100E9EF56 /* CommandV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147FB2978A20000E9EF56 /* CommandV2.swift */; };
+		ABB1482C2978A20100E9EF56 /* VersionsCommandResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147FD2978A20000E9EF56 /* VersionsCommandResponse.swift */; };
+		ABB1482D2978A20100E9EF56 /* ShouldActionCompleteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147FE2978A20000E9EF56 /* ShouldActionCompleteResponse.swift */; };
+		ABB1482E2978A20100E9EF56 /* SensorCommandResponseV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB147FF2978A20000E9EF56 /* SensorCommandResponseV2.swift */; };
+		ABB1482F2978A20100E9EF56 /* SensorCommandResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB148002978A20000E9EF56 /* SensorCommandResponse.swift */; };
+		ABB148302978A20100E9EF56 /* SensorMaskCommandResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB148012978A20000E9EF56 /* SensorMaskCommandResponse.swift */; };
+		ABB148312978A20100E9EF56 /* PowerStateResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB148022978A20000E9EF56 /* PowerStateResponse.swift */; };
+		ABB148322978A20100E9EF56 /* CollisionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB148032978A20000E9EF56 /* CollisionData.swift */; };
+		ABB148332978A20100E9EF56 /* CommandV1Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB148052978A20000E9EF56 /* CommandV1Operation.swift */; };
+		ABB148342978A20100E9EF56 /* CommandV1Sequencer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB148062978A20000E9EF56 /* CommandV1Sequencer.swift */; };
+		ABB148352978A20100E9EF56 /* CommandV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB148072978A20000E9EF56 /* CommandV1.swift */; };
+		ABB148362978A20100E9EF56 /* Double+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB148082978A20000E9EF56 /* Double+Utils.swift */; };
+		ABB148372978A20100E9EF56 /* String+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB148092978A20000E9EF56 /* String+Utils.swift */; };
+		ABB148382978A20100E9EF56 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB1480B2978A20000E9EF56 /* Storage.swift */; };
+		ABB148392978A20100E9EF56 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB1480C2978A20000E9EF56 /* Random.swift */; };
+		ABB1483A2978A20100E9EF56 /* FFNN+Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB1480D2978A20000E9EF56 /* FFNN+Storage.swift */; };
+		ABB1483B2978A20100E9EF56 /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB1480E2978A20000E9EF56 /* Vector.swift */; };
+		ABB1483C2978A20100E9EF56 /* FFNN.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB1480F2978A20000E9EF56 /* FFNN.swift */; };
+		ABB1483D2978A20100E9EF56 /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB148102978A20000E9EF56 /* Operations.swift */; };
+		ABB1483E2978A20100E9EF56 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB148112978A20000E9EF56 /* Matrix.swift */; };
+		ABB1483F2978A20100E9EF56 /* FFNN+Metal.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB148122978A20000E9EF56 /* FFNN+Metal.swift */; };
+		ABB148432978A5C800E9EF56 /* BLEController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB148402978A5C700E9EF56 /* BLEController.swift */; };
+		ABB148442978A5C800E9EF56 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB148412978A5C800E9EF56 /* BLEManager.swift */; };
+		ABB148452978A5C800E9EF56 /* BLEObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB148422978A5C800E9EF56 /* BLEObservable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +96,57 @@
 		ABB146F729774C2300E9EF56 /* symbiose_macos_act3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = symbiose_macos_act3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB146FB29774C2300E9EF56 /* symbiose_macos_act3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symbiose_macos_act3UITests.swift; sourceTree = "<group>"; };
 		ABB146FD29774C2300E9EF56 /* symbiose_macos_act3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symbiose_macos_act3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ABB147D229789C3500E9EF56 /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
+		ABB147D329789C3500E9EF56 /* VideoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoManager.swift; sourceTree = "<group>"; };
+		ABB147D72978A1BC00E9EF56 /* ToneOutputUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToneOutputUnit.swift; sourceTree = "<group>"; };
+		ABB147DA2978A20000E9EF56 /* SpheroSensorControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpheroSensorControl.swift; sourceTree = "<group>"; };
+		ABB147DC2978A20000E9EF56 /* SharedToyBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedToyBox.swift; sourceTree = "<group>"; };
+		ABB147DE2978A20000E9EF56 /* SDKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKUtils.swift; sourceTree = "<group>"; };
+		ABB147E12978A20000E9EF56 /* Toy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toy.swift; sourceTree = "<group>"; };
+		ABB147E22978A20000E9EF56 /* SensorControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorControl.swift; sourceTree = "<group>"; };
+		ABB147E42978A20000E9EF56 /* SPRKToy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRKToy.swift; sourceTree = "<group>"; };
+		ABB147E52978A20000E9EF56 /* SensorControlV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorControlV1.swift; sourceTree = "<group>"; };
+		ABB147E62978A20000E9EF56 /* SpheroV1Toy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpheroV1Toy.swift; sourceTree = "<group>"; };
+		ABB147E72978A20000E9EF56 /* SpheroV1ToyCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpheroV1ToyCore.swift; sourceTree = "<group>"; };
+		ABB147E82978A20000E9EF56 /* BB8Toy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BB8Toy.swift; sourceTree = "<group>"; };
+		ABB147EA2978A20000E9EF56 /* SensorControlV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorControlV2.swift; sourceTree = "<group>"; };
+		ABB147EB2978A20000E9EF56 /* BB9EToy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BB9EToy.swift; sourceTree = "<group>"; };
+		ABB147EC2978A20000E9EF56 /* SpheroV2Toy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpheroV2Toy.swift; sourceTree = "<group>"; };
+		ABB147ED2978A20000E9EF56 /* BoltToy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoltToy.swift; sourceTree = "<group>"; };
+		ABB147EE2978A20000E9EF56 /* R2D2Toy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R2D2Toy.swift; sourceTree = "<group>"; };
+		ABB147EF2978A20000E9EF56 /* SpheroV2ToyCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpheroV2ToyCore.swift; sourceTree = "<group>"; };
+		ABB147F02978A20000E9EF56 /* MiniToy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiniToy.swift; sourceTree = "<group>"; };
+		ABB147F12978A20000E9EF56 /* ToyProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToyProtocols.swift; sourceTree = "<group>"; };
+		ABB147F22978A20000E9EF56 /* CBUUID+SpheroUUIDs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CBUUID+SpheroUUIDs.swift"; sourceTree = "<group>"; };
+		ABB147F42978A20000E9EF56 /* ToyBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToyBox.swift; sourceTree = "<group>"; };
+		ABB147F52978A20000E9EF56 /* Color+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Utils.swift"; sourceTree = "<group>"; };
+		ABB147F72978A20000E9EF56 /* SensorUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorUtils.swift; sourceTree = "<group>"; };
+		ABB147F92978A20000E9EF56 /* CommandOperationV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandOperationV2.swift; sourceTree = "<group>"; };
+		ABB147FA2978A20000E9EF56 /* CommandSequencerV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandSequencerV2.swift; sourceTree = "<group>"; };
+		ABB147FB2978A20000E9EF56 /* CommandV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandV2.swift; sourceTree = "<group>"; };
+		ABB147FD2978A20000E9EF56 /* VersionsCommandResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionsCommandResponse.swift; sourceTree = "<group>"; };
+		ABB147FE2978A20000E9EF56 /* ShouldActionCompleteResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShouldActionCompleteResponse.swift; sourceTree = "<group>"; };
+		ABB147FF2978A20000E9EF56 /* SensorCommandResponseV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorCommandResponseV2.swift; sourceTree = "<group>"; };
+		ABB148002978A20000E9EF56 /* SensorCommandResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorCommandResponse.swift; sourceTree = "<group>"; };
+		ABB148012978A20000E9EF56 /* SensorMaskCommandResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorMaskCommandResponse.swift; sourceTree = "<group>"; };
+		ABB148022978A20000E9EF56 /* PowerStateResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerStateResponse.swift; sourceTree = "<group>"; };
+		ABB148032978A20000E9EF56 /* CollisionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollisionData.swift; sourceTree = "<group>"; };
+		ABB148052978A20000E9EF56 /* CommandV1Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandV1Operation.swift; sourceTree = "<group>"; };
+		ABB148062978A20000E9EF56 /* CommandV1Sequencer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandV1Sequencer.swift; sourceTree = "<group>"; };
+		ABB148072978A20000E9EF56 /* CommandV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandV1.swift; sourceTree = "<group>"; };
+		ABB148082978A20000E9EF56 /* Double+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Utils.swift"; sourceTree = "<group>"; };
+		ABB148092978A20000E9EF56 /* String+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Utils.swift"; sourceTree = "<group>"; };
+		ABB1480B2978A20000E9EF56 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		ABB1480C2978A20000E9EF56 /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		ABB1480D2978A20000E9EF56 /* FFNN+Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FFNN+Storage.swift"; sourceTree = "<group>"; };
+		ABB1480E2978A20000E9EF56 /* Vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
+		ABB1480F2978A20000E9EF56 /* FFNN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFNN.swift; sourceTree = "<group>"; };
+		ABB148102978A20000E9EF56 /* Operations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operations.swift; sourceTree = "<group>"; };
+		ABB148112978A20000E9EF56 /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		ABB148122978A20000E9EF56 /* FFNN+Metal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FFNN+Metal.swift"; sourceTree = "<group>"; };
+		ABB148402978A5C700E9EF56 /* BLEController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEController.swift; sourceTree = "<group>"; };
+		ABB148412978A5C800E9EF56 /* BLEManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		ABB148422978A5C800E9EF56 /* BLEObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEObservable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +197,7 @@
 		ABB146DE29774C2200E9EF56 /* symbiose_macos_act3 */ = {
 			isa = PBXGroup;
 			children = (
+				ABB147D62978A1AB00E9EF56 /* audio */,
 				ABB1470B29774CA900E9EF56 /* ble */,
 				ABB1470A29774C9400E9EF56 /* video */,
 				ABB146DF29774C2200E9EF56 /* symbiose_macos_act3App.swift */,
@@ -134,6 +237,8 @@
 		ABB1470A29774C9400E9EF56 /* video */ = {
 			isa = PBXGroup;
 			children = (
+				ABB147D229789C3500E9EF56 /* CustomVideoPlayer.swift */,
+				ABB147D329789C3500E9EF56 /* VideoManager.swift */,
 			);
 			path = video;
 			sourceTree = "<group>";
@@ -141,8 +246,168 @@
 		ABB1470B29774CA900E9EF56 /* ble */ = {
 			isa = PBXGroup;
 			children = (
+				ABB148402978A5C700E9EF56 /* BLEController.swift */,
+				ABB148412978A5C800E9EF56 /* BLEManager.swift */,
+				ABB148422978A5C800E9EF56 /* BLEObservable.swift */,
+				ABB147D92978A20000E9EF56 /* Sphero */,
 			);
 			path = ble;
+			sourceTree = "<group>";
+		};
+		ABB147D62978A1AB00E9EF56 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				ABB147D72978A1BC00E9EF56 /* ToneOutputUnit.swift */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
+		ABB147D92978A20000E9EF56 /* Sphero */ = {
+			isa = PBXGroup;
+			children = (
+				ABB147DA2978A20000E9EF56 /* SpheroSensorControl.swift */,
+				ABB147DB2978A20000E9EF56 /* SpheroSDK */,
+				ABB1480A2978A20000E9EF56 /* NeuralNet */,
+			);
+			path = Sphero;
+			sourceTree = "<group>";
+		};
+		ABB147DB2978A20000E9EF56 /* SpheroSDK */ = {
+			isa = PBXGroup;
+			children = (
+				ABB147DC2978A20000E9EF56 /* SharedToyBox.swift */,
+				ABB147DD2978A20000E9EF56 /* SDK */,
+			);
+			path = SpheroSDK;
+			sourceTree = "<group>";
+		};
+		ABB147DD2978A20000E9EF56 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				ABB147DE2978A20000E9EF56 /* SDKUtils.swift */,
+				ABB147DF2978A20000E9EF56 /* BLE */,
+				ABB147F52978A20000E9EF56 /* Color+Utils.swift */,
+				ABB147F62978A20000E9EF56 /* Commands */,
+				ABB148082978A20000E9EF56 /* Double+Utils.swift */,
+				ABB148092978A20000E9EF56 /* String+Utils.swift */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		ABB147DF2978A20000E9EF56 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				ABB147E02978A20000E9EF56 /* Toy */,
+				ABB147F22978A20000E9EF56 /* CBUUID+SpheroUUIDs.swift */,
+				ABB147F32978A20000E9EF56 /* ToyBox */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		ABB147E02978A20000E9EF56 /* Toy */ = {
+			isa = PBXGroup;
+			children = (
+				ABB147E12978A20000E9EF56 /* Toy.swift */,
+				ABB147E22978A20000E9EF56 /* SensorControl.swift */,
+				ABB147E32978A20000E9EF56 /* V1Toys */,
+				ABB147E92978A20000E9EF56 /* V2Toys */,
+				ABB147F12978A20000E9EF56 /* ToyProtocols.swift */,
+			);
+			path = Toy;
+			sourceTree = "<group>";
+		};
+		ABB147E32978A20000E9EF56 /* V1Toys */ = {
+			isa = PBXGroup;
+			children = (
+				ABB147E42978A20000E9EF56 /* SPRKToy.swift */,
+				ABB147E52978A20000E9EF56 /* SensorControlV1.swift */,
+				ABB147E62978A20000E9EF56 /* SpheroV1Toy.swift */,
+				ABB147E72978A20000E9EF56 /* SpheroV1ToyCore.swift */,
+				ABB147E82978A20000E9EF56 /* BB8Toy.swift */,
+			);
+			path = V1Toys;
+			sourceTree = "<group>";
+		};
+		ABB147E92978A20000E9EF56 /* V2Toys */ = {
+			isa = PBXGroup;
+			children = (
+				ABB147EA2978A20000E9EF56 /* SensorControlV2.swift */,
+				ABB147EB2978A20000E9EF56 /* BB9EToy.swift */,
+				ABB147EC2978A20000E9EF56 /* SpheroV2Toy.swift */,
+				ABB147ED2978A20000E9EF56 /* BoltToy.swift */,
+				ABB147EE2978A20000E9EF56 /* R2D2Toy.swift */,
+				ABB147EF2978A20000E9EF56 /* SpheroV2ToyCore.swift */,
+				ABB147F02978A20000E9EF56 /* MiniToy.swift */,
+			);
+			path = V2Toys;
+			sourceTree = "<group>";
+		};
+		ABB147F32978A20000E9EF56 /* ToyBox */ = {
+			isa = PBXGroup;
+			children = (
+				ABB147F42978A20000E9EF56 /* ToyBox.swift */,
+			);
+			path = ToyBox;
+			sourceTree = "<group>";
+		};
+		ABB147F62978A20000E9EF56 /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				ABB147F72978A20000E9EF56 /* SensorUtils.swift */,
+				ABB147F82978A20000E9EF56 /* CommandV2 */,
+				ABB147FC2978A20000E9EF56 /* CommandResponses */,
+				ABB148042978A20000E9EF56 /* CommandV1 */,
+			);
+			path = Commands;
+			sourceTree = "<group>";
+		};
+		ABB147F82978A20000E9EF56 /* CommandV2 */ = {
+			isa = PBXGroup;
+			children = (
+				ABB147F92978A20000E9EF56 /* CommandOperationV2.swift */,
+				ABB147FA2978A20000E9EF56 /* CommandSequencerV2.swift */,
+				ABB147FB2978A20000E9EF56 /* CommandV2.swift */,
+			);
+			path = CommandV2;
+			sourceTree = "<group>";
+		};
+		ABB147FC2978A20000E9EF56 /* CommandResponses */ = {
+			isa = PBXGroup;
+			children = (
+				ABB147FD2978A20000E9EF56 /* VersionsCommandResponse.swift */,
+				ABB147FE2978A20000E9EF56 /* ShouldActionCompleteResponse.swift */,
+				ABB147FF2978A20000E9EF56 /* SensorCommandResponseV2.swift */,
+				ABB148002978A20000E9EF56 /* SensorCommandResponse.swift */,
+				ABB148012978A20000E9EF56 /* SensorMaskCommandResponse.swift */,
+				ABB148022978A20000E9EF56 /* PowerStateResponse.swift */,
+				ABB148032978A20000E9EF56 /* CollisionData.swift */,
+			);
+			path = CommandResponses;
+			sourceTree = "<group>";
+		};
+		ABB148042978A20000E9EF56 /* CommandV1 */ = {
+			isa = PBXGroup;
+			children = (
+				ABB148052978A20000E9EF56 /* CommandV1Operation.swift */,
+				ABB148062978A20000E9EF56 /* CommandV1Sequencer.swift */,
+				ABB148072978A20000E9EF56 /* CommandV1.swift */,
+			);
+			path = CommandV1;
+			sourceTree = "<group>";
+		};
+		ABB1480A2978A20000E9EF56 /* NeuralNet */ = {
+			isa = PBXGroup;
+			children = (
+				ABB1480B2978A20000E9EF56 /* Storage.swift */,
+				ABB1480C2978A20000E9EF56 /* Random.swift */,
+				ABB1480D2978A20000E9EF56 /* FFNN+Storage.swift */,
+				ABB1480E2978A20000E9EF56 /* Vector.swift */,
+				ABB1480F2978A20000E9EF56 /* FFNN.swift */,
+				ABB148102978A20000E9EF56 /* Operations.swift */,
+				ABB148112978A20000E9EF56 /* Matrix.swift */,
+				ABB148122978A20000E9EF56 /* FFNN+Metal.swift */,
+			);
+			path = NeuralNet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,8 +540,59 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB148182978A20100E9EF56 /* SPRKToy.swift in Sources */,
+				ABB148132978A20100E9EF56 /* SpheroSensorControl.swift in Sources */,
+				ABB1483B2978A20100E9EF56 /* Vector.swift in Sources */,
+				ABB148262978A20100E9EF56 /* ToyBox.swift in Sources */,
+				ABB148242978A20100E9EF56 /* ToyProtocols.swift in Sources */,
+				ABB148442978A5C800E9EF56 /* BLEManager.swift in Sources */,
+				ABB148332978A20100E9EF56 /* CommandV1Operation.swift in Sources */,
+				ABB148192978A20100E9EF56 /* SensorControlV1.swift in Sources */,
+				ABB1482C2978A20100E9EF56 /* VersionsCommandResponse.swift in Sources */,
+				ABB1482B2978A20100E9EF56 /* CommandV2.swift in Sources */,
+				ABB1482E2978A20100E9EF56 /* SensorCommandResponseV2.swift in Sources */,
+				ABB1481D2978A20100E9EF56 /* SensorControlV2.swift in Sources */,
+				ABB148252978A20100E9EF56 /* CBUUID+SpheroUUIDs.swift in Sources */,
+				ABB1483A2978A20100E9EF56 /* FFNN+Storage.swift in Sources */,
+				ABB148342978A20100E9EF56 /* CommandV1Sequencer.swift in Sources */,
 				ABB146E229774C2200E9EF56 /* ContentView.swift in Sources */,
+				ABB1483D2978A20100E9EF56 /* Operations.swift in Sources */,
+				ABB148202978A20100E9EF56 /* BoltToy.swift in Sources */,
+				ABB148302978A20100E9EF56 /* SensorMaskCommandResponse.swift in Sources */,
 				ABB146E029774C2200E9EF56 /* symbiose_macos_act3App.swift in Sources */,
+				ABB148172978A20100E9EF56 /* SensorControl.swift in Sources */,
+				ABB147D429789C3500E9EF56 /* CustomVideoPlayer.swift in Sources */,
+				ABB1483E2978A20100E9EF56 /* Matrix.swift in Sources */,
+				ABB148152978A20100E9EF56 /* SDKUtils.swift in Sources */,
+				ABB1481C2978A20100E9EF56 /* BB8Toy.swift in Sources */,
+				ABB1481E2978A20100E9EF56 /* BB9EToy.swift in Sources */,
+				ABB148282978A20100E9EF56 /* SensorUtils.swift in Sources */,
+				ABB148142978A20100E9EF56 /* SharedToyBox.swift in Sources */,
+				ABB1481A2978A20100E9EF56 /* SpheroV1Toy.swift in Sources */,
+				ABB148352978A20100E9EF56 /* CommandV1.swift in Sources */,
+				ABB148272978A20100E9EF56 /* Color+Utils.swift in Sources */,
+				ABB148372978A20100E9EF56 /* String+Utils.swift in Sources */,
+				ABB1483C2978A20100E9EF56 /* FFNN.swift in Sources */,
+				ABB148212978A20100E9EF56 /* R2D2Toy.swift in Sources */,
+				ABB148322978A20100E9EF56 /* CollisionData.swift in Sources */,
+				ABB148382978A20100E9EF56 /* Storage.swift in Sources */,
+				ABB148232978A20100E9EF56 /* MiniToy.swift in Sources */,
+				ABB148222978A20100E9EF56 /* SpheroV2ToyCore.swift in Sources */,
+				ABB148392978A20100E9EF56 /* Random.swift in Sources */,
+				ABB148432978A5C800E9EF56 /* BLEController.swift in Sources */,
+				ABB148162978A20100E9EF56 /* Toy.swift in Sources */,
+				ABB148292978A20100E9EF56 /* CommandOperationV2.swift in Sources */,
+				ABB148312978A20100E9EF56 /* PowerStateResponse.swift in Sources */,
+				ABB1482D2978A20100E9EF56 /* ShouldActionCompleteResponse.swift in Sources */,
+				ABB1481B2978A20100E9EF56 /* SpheroV1ToyCore.swift in Sources */,
+				ABB147D529789C3500E9EF56 /* VideoManager.swift in Sources */,
+				ABB1482F2978A20100E9EF56 /* SensorCommandResponse.swift in Sources */,
+				ABB1483F2978A20100E9EF56 /* FFNN+Metal.swift in Sources */,
+				ABB147D82978A1BC00E9EF56 /* ToneOutputUnit.swift in Sources */,
+				ABB148452978A5C800E9EF56 /* BLEObservable.swift in Sources */,
+				ABB1481F2978A20100E9EF56 /* SpheroV2Toy.swift in Sources */,
+				ABB148362978A20100E9EF56 /* Double+Utils.swift in Sources */,
+				ABB1482A2978A20100E9EF56 /* CommandSequencerV2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +756,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = ble;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -467,6 +784,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = ble;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
